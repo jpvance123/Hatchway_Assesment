@@ -1,0 +1,26 @@
+{
+  "name": "hatchway-assesment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chai-http": "^4.3.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "http-status-codes": "^2.2.0",
+    "lodash": "^4.17.21",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6"
+  }
+}
